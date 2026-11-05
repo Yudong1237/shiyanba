@@ -1,0 +1,13 @@
+{
+  "name": "Campus Coffee AI Marketing OS",
+  "version": "v1.0",
+  "nodes": [
+    {"id": "brand_profile", "input": ["brand_profile.json"], "output": ["brand_voice", "historical_campaigns"]},
+    {"id": "consumer_insight", "input": ["consumer_feedback.csv"], "output": ["topic_metrics", "pain_points", "evidence_trace"]},
+    {"id": "competitive_intelligence", "input": ["competitor_snapshot.csv"], "output": ["ranking", "threat_index", "market_whitespace"]},
+    {"id": "content_opportunity", "input": ["content_coverage.csv", "consumer_insight", "competitive_intelligence"], "output": ["opportunity_scores", "content_briefs"]},
+    {"id": "campaign_planner", "input": ["brand_profile", "consumer_insight", "content_opportunity", "effect_analysis"], "output": ["objective", "theme", "channels", "kpis", "risks"]},
+    {"id": "effect_analysis", "input": ["ab_test_anonymous.csv", "questionnaire_anonymous.csv"], "output": ["variant_comparison", "uplift", "next_iteration"]}
+  ],
+  "state_contract": {"success": "继续下游", "degraded": "保留结果并人工审核", "failed": "阻断发布并提示修复"}
+}

@@ -1,0 +1,5 @@
+topic,mentions,negative_mentions,negative_share_pct,user_importance_pct,evidence_ids
+快速购买,6,5,83.33,51.33,FB-001;FB-004;FB-008;FB-012;FB-013;FB-019
+价格优惠,6,2,33.33,31.33,FB-002;FB-006;FB-010;FB-014;FB-017;FB-020
+口味与配方,5,0,0.0,15.0,FB-003;FB-007;FB-009;FB-015;FB-018
+社交分享,3,0,0.0,9.0,FB-005;FB-011;FB-016

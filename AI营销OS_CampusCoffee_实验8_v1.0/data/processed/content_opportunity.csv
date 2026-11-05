@@ -1,0 +1,5 @@
+topic,user_importance_pct,own_coverage_pct,competitor_coverage_pct,content_gap_pct,evidence_strength_pct,opportunity_score,priority
+快速购买,51.33,35.0,66.25,31.25,95.0,54.04,P1
+价格优惠,31.33,40.0,52.5,12.5,80.0,35.41,P1
+口味与配方,15.0,30.0,60.0,30.0,58.33,28.17,P2
+社交分享,9.0,25.0,53.75,28.75,35.0,20.12,P2

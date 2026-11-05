@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/campus-coffee/os-run.schema.json",
+  "title": "MarketingOSRun",
+  "type": "object",
+  "required": ["run_id", "version", "brand", "consumer_insight", "competitive_intelligence", "content_opportunity", "effect_analysis", "campaign"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "version": {"const": "v1.0"},
+    "brand": {"type": "object"},
+    "consumer_insight": {"type": "object", "required": ["sample_size", "topic_metrics", "evidence_trace"]},
+    "competitive_intelligence": {"type": "object", "required": ["ranked_competitors", "market_whitespace", "evidence_trace"]},
+    "content_opportunity": {"type": "object", "required": ["ranked_opportunities", "evidence_trace"]},
+    "effect_analysis": {"type": "object", "required": ["ab_summary", "conversion_uplift_B_vs_A_pct", "recommendation"]},
+    "campaign": {"type": "object", "required": ["objective", "theme", "channels", "risk_controls", "evidence_trace"]}
+  }
+}

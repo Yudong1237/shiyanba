@@ -1,0 +1,7 @@
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "brand_profile", "status": "success", "evidence_trace": ["data/raw/brand_profile.json"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "consumer_insight", "status": "success", "evidence_trace": ["data/raw/consumer_feedback.csv", "匿名且已同意用于课程分析"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "competitive_intelligence", "status": "success", "evidence_trace": ["data/raw/competitor_snapshot.csv", "桌面竞品盘点，待真实市场数据复核"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "content_opportunity", "status": "success", "evidence_trace": ["data/raw/content_coverage.csv", "step:consumer_insight"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "effect_analysis", "status": "success", "evidence_trace": ["data/raw/ab_test_anonymous.csv", "data/raw/questionnaire_anonymous.csv"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "campaign_planner", "status": "success", "evidence_trace": ["step:brand_profile", "step:consumer_insight", "step:competitive_analysis", "step:content_opportunity", "step:effect_analysis"]}
+{"timestamp": "2026-11-05T01:40:43+00:00", "run_id": "os-a6b5fbfcbabc", "module": "system", "status": "complete", "evidence_trace": ["data/processed", "reports/run_result.json", "data/marketing_os.db"]}

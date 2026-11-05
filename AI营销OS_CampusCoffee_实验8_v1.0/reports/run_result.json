@@ -1,0 +1,286 @@
+{
+  "run_id": "os-a6b5fbfcbabc",
+  "version": "v1.0",
+  "started_at": "2026-11-05T01:40:43+00:00",
+  "brand": {
+    "brand": "Campus Coffee",
+    "version": "v1.0",
+    "category": "校园咖啡",
+    "product": "晨光燕麦冷萃拿铁",
+    "promise": "让校园里的每一次出发，都有一杯刚刚好的咖啡",
+    "target_audience": [
+      "早八通勤者",
+      "图书馆学习者",
+      "社团活动人群"
+    ],
+    "brand_voice_version": "v0.7",
+    "brand_voice": {
+      "personality": [
+        "清爽",
+        "可靠",
+        "有校园陪伴感"
+      ],
+      "preferred_words": [
+        "刚刚好",
+        "现制",
+        "顺路",
+        "按需选择"
+      ],
+      "avoid_words": [
+        "全网第一",
+        "百分之百提神",
+        "零糖无负担",
+        "最便宜",
+        "碾压竞品"
+      ]
+    },
+    "historical_campaigns": [
+      {
+        "name": "Campus Coffee｜早八不空档",
+        "version": "v0.7",
+        "status": "试投完成",
+        "source": "实验7 Campaign Planner"
+      }
+    ],
+    "data_boundary": "品牌与产品设定为课程演示数据，需用真实门店资料复核"
+  },
+  "consumer_insight": {
+    "sample_size": 20,
+    "segments": {
+      "早八通勤者": 7,
+      "图书馆学习者": 7,
+      "社团活动人群": 6
+    },
+    "topic_metrics": [
+      {
+        "topic": "快速购买",
+        "mentions": 6,
+        "negative_mentions": 5,
+        "negative_share_pct": 83.33,
+        "user_importance_pct": 51.33,
+        "evidence_ids": "FB-001;FB-004;FB-008;FB-012;FB-013;FB-019"
+      },
+      {
+        "topic": "价格优惠",
+        "mentions": 6,
+        "negative_mentions": 2,
+        "negative_share_pct": 33.33,
+        "user_importance_pct": 31.33,
+        "evidence_ids": "FB-002;FB-006;FB-010;FB-014;FB-017;FB-020"
+      },
+      {
+        "topic": "口味与配方",
+        "mentions": 5,
+        "negative_mentions": 0,
+        "negative_share_pct": 0.0,
+        "user_importance_pct": 15.0,
+        "evidence_ids": "FB-003;FB-007;FB-009;FB-015;FB-018"
+      },
+      {
+        "topic": "社交分享",
+        "mentions": 3,
+        "negative_mentions": 0,
+        "negative_share_pct": 0.0,
+        "user_importance_pct": 9.0,
+        "evidence_ids": "FB-005;FB-011;FB-016"
+      }
+    ],
+    "top_pain_points": [
+      "快速购买",
+      "价格优惠"
+    ],
+    "evidence_trace": [
+      "data/raw/consumer_feedback.csv",
+      "匿名且已同意用于课程分析"
+    ],
+    "data_boundary": "样本为匿名模拟数据，不代表全体校园消费者"
+  },
+  "competitive_intelligence": {
+    "ranked_competitors": [
+      {
+        "competitor": "奶茶店早餐饮品",
+        "threat_index": 86.05,
+        "availability_score": 85.0,
+        "price_fit_score": 95.0,
+        "brand_heat_index": 88.0,
+        "student_fit_score": 74.0,
+        "evidence": "人工桌面盘点"
+      },
+      {
+        "competitor": "校内便利店罐装咖啡",
+        "threat_index": 77.45,
+        "availability_score": 92.0,
+        "price_fit_score": 65.0,
+        "brand_heat_index": 72.0,
+        "student_fit_score": 78.0,
+        "evidence": "人工桌面盘点"
+      },
+      {
+        "competitor": "连锁咖啡外带",
+        "threat_index": 75.9,
+        "availability_score": 70.0,
+        "price_fit_score": 75.0,
+        "brand_heat_index": 95.0,
+        "student_fit_score": 62.0,
+        "evidence": "人工桌面盘点"
+      },
+      {
+        "competitor": "校园独立咖啡店",
+        "threat_index": 65.45,
+        "availability_score": 52.0,
+        "price_fit_score": 90.0,
+        "brand_heat_index": 55.0,
+        "student_fit_score": 68.0,
+        "evidence": "人工桌面盘点"
+      }
+    ],
+    "market_whitespace": [
+      "把早八取杯动线和库存状态说清楚",
+      "用透明冰量/甜度和学生优惠降低首次尝试门槛",
+      "将社团套餐与真实试饮反馈绑定，而不是只做打卡传播"
+    ],
+    "evidence_trace": [
+      "data/raw/competitor_snapshot.csv",
+      "桌面竞品盘点，待真实市场数据复核"
+    ]
+  },
+  "content_opportunity": {
+    "ranked_opportunities": [
+      {
+        "topic": "快速购买",
+        "user_importance_pct": 51.33,
+        "own_coverage_pct": 35.0,
+        "competitor_coverage_pct": 66.25,
+        "content_gap_pct": 31.25,
+        "evidence_strength_pct": 95.0,
+        "opportunity_score": 54.04,
+        "priority": "P1"
+      },
+      {
+        "topic": "价格优惠",
+        "user_importance_pct": 31.33,
+        "own_coverage_pct": 40.0,
+        "competitor_coverage_pct": 52.5,
+        "content_gap_pct": 12.5,
+        "evidence_strength_pct": 80.0,
+        "opportunity_score": 35.41,
+        "priority": "P1"
+      },
+      {
+        "topic": "口味与配方",
+        "user_importance_pct": 15.0,
+        "own_coverage_pct": 30.0,
+        "competitor_coverage_pct": 60.0,
+        "content_gap_pct": 30.0,
+        "evidence_strength_pct": 58.33,
+        "opportunity_score": 28.17,
+        "priority": "P2"
+      },
+      {
+        "topic": "社交分享",
+        "user_importance_pct": 9.0,
+        "own_coverage_pct": 25.0,
+        "competitor_coverage_pct": 53.75,
+        "content_gap_pct": 28.75,
+        "evidence_strength_pct": 35.0,
+        "opportunity_score": 20.12,
+        "priority": "P2"
+      }
+    ],
+    "evidence_trace": [
+      "data/raw/content_coverage.csv",
+      "step:consumer_insight"
+    ]
+  },
+  "effect_analysis": {
+    "ab_summary": [
+      {
+        "variant": "A",
+        "sample_size": 12,
+        "click_rate_pct": 66.67,
+        "conversion_rate_pct": 25.0,
+        "avg_order_value_rmb": 6.0,
+        "avg_feedback_score": 3.17
+      },
+      {
+        "variant": "B",
+        "sample_size": 12,
+        "click_rate_pct": 83.33,
+        "conversion_rate_pct": 41.67,
+        "avg_order_value_rmb": 9.0,
+        "avg_feedback_score": 3.58
+      }
+    ],
+    "conversion_uplift_B_vs_A_pct": 66.68,
+    "z_score": 0.866,
+    "p_value_two_sided": 0.3864,
+    "statistical_caution": "每组仅 12 人且数据为模拟示例，不能宣称统计显著",
+    "questionnaire_summary": [
+      {
+        "variant": "A",
+        "sample_size": 12,
+        "avg_trial_intent": 3.33,
+        "avg_purchase_intent": 2.75,
+        "avg_brand_fit": 3.33
+      },
+      {
+        "variant": "B",
+        "sample_size": 12,
+        "avg_trial_intent": 3.92,
+        "avg_purchase_intent": 3.42,
+        "avg_brand_fit": 3.83
+      }
+    ],
+    "recommendation": "优先迭代 B 的取杯动线和首杯券表达，再扩大样本",
+    "evidence_trace": [
+      "data/raw/ab_test_anonymous.csv",
+      "data/raw/questionnaire_anonymous.csv"
+    ]
+  },
+  "campaign": {
+    "objective": "在校园场景提升新品认知、首购试饮和优惠券核销，并为下一轮内容迭代提供证据",
+    "theme": "早八不空档，第一杯刚刚好",
+    "target_consumer": "早八通勤者为主，图书馆学习者和社团活动人群为辅",
+    "priority_topics": [
+      "快速购买",
+      "价格优惠",
+      "口味与配方"
+    ],
+    "channels": [
+      {
+        "name": "校园小程序/公众号",
+        "role": "领券和转化",
+        "kpi": "领券率>=8%，核销率>=25%"
+      },
+      {
+        "name": "校园社群与取杯点海报",
+        "role": "覆盖早八动线",
+        "kpi": "二维码访问>=1500"
+      },
+      {
+        "name": "校园 KOC 试饮",
+        "role": "口味与社交证明",
+        "kpi": "有效互动率>=6%"
+      },
+      {
+        "name": "门店/社团试饮",
+        "role": "降低首次尝试门槛",
+        "kpi": "试饮转购>=20%"
+      }
+    ],
+    "risk_controls": [
+      "价格、库存和券规则人工审核",
+      "不作健康功效承诺",
+      "校园拍摄取得授权",
+      "A/B 结果达到样本门槛后再扩大投放"
+    ],
+    "evidence_trace": [
+      "step:brand_profile",
+      "step:consumer_insight",
+      "step:competitive_analysis",
+      "step:content_opportunity",
+      "step:effect_analysis"
+    ],
+    "planner_note": "品牌语气：清爽, 可靠, 有校园陪伴感；历史 Campaign：1 个；实验结果建议：优先迭代 B 的取杯动线和首杯券表达，再扩大样本"
+  }
+}

@@ -1,0 +1,5 @@
+competitor,category,availability_score,price_index,brand_heat_index,content_coverage_pct,student_fit_score,source,is_mock
+校内便利店罐装咖啡,便利店咖啡,92,65,72,80,78,人工桌面盘点,true
+连锁咖啡外带,连锁咖啡,70,125,95,75,62,人工桌面盘点,true
+奶茶店早餐饮品,茶饮,85,95,88,70,74,人工桌面盘点,true
+校园独立咖啡店,独立咖啡,52,110,55,45,68,人工桌面盘点,true

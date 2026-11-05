@@ -1,0 +1,18 @@
+{
+  "brand": "Campus Coffee",
+  "version": "v1.0",
+  "category": "校园咖啡",
+  "product": "晨光燕麦冷萃拿铁",
+  "promise": "让校园里的每一次出发，都有一杯刚刚好的咖啡",
+  "target_audience": ["早八通勤者", "图书馆学习者", "社团活动人群"],
+  "brand_voice_version": "v0.7",
+  "brand_voice": {
+    "personality": ["清爽", "可靠", "有校园陪伴感"],
+    "preferred_words": ["刚刚好", "现制", "顺路", "按需选择"],
+    "avoid_words": ["全网第一", "百分之百提神", "零糖无负担", "最便宜", "碾压竞品"]
+  },
+  "historical_campaigns": [
+    {"name": "Campus Coffee｜早八不空档", "version": "v0.7", "status": "试投完成", "source": "实验7 Campaign Planner"}
+  ],
+  "data_boundary": "品牌与产品设定为课程演示数据，需用真实门店资料复核"
+}
